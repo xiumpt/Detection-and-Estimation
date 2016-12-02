@@ -13,7 +13,7 @@ close all;clear all
 
 a=-0.9;  % signal parameters
 sig2u=1;
-WGN_sig2u=5;  % white noise variance
+WGN_sig2u=1;  % white noise variance
 N=100;
 n=[0:N-1]';  % time samples
 s=ARgendata(a,sig2u,N);  % generate AR signal data
