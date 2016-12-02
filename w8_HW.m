@@ -19,7 +19,7 @@ ss=[zeros(n0,1);s;zeros(n-n0-M,1)];  % embed signal in array of length N
 x=ss+0.5*randn(length(ss),1);  % add noise to signal
 n1=1:200;
 plot(n1,x);
-xlabel('n');ylabel('x[n]');title('signal+noise');
+xlabel('n');ylabel('x[n]');title('noise');
 
 lx=length(x);
 ls=length(s);
